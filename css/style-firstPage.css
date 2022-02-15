@@ -1,4 +1,13 @@
 /* reseting pre-applied css */
+body { background-image:url("bg-gif.gif");
+background-position: center;
+background-repeat: no-repeat;
+ background-size: 100%;
+}
+
+button:hover {
+  background-color: #FF6363;
+}
 
 * {
     padding: 0;
@@ -32,6 +41,7 @@
 /* college name styling below */
 
 #collegeName {
+    color: #EDF6E5;
     font-family: 'Bree Serif', serif;
     font-size: 2.7rem;
 }
@@ -40,7 +50,7 @@
 /* college tagline styling below */
 
 #tag {
-    color: black;
+    color: #EDF6E5;
     font-size: 1.4rem;
     font-family: 'Akaya Telivigala', cursive;
 }
@@ -62,6 +72,7 @@
     border-radius: 16px;
     font-size: 18px;
     font-family: 'Bree Serif', serif;
+    background-color: #EDF6E5;
 }
 
 
